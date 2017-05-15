@@ -18,4 +18,6 @@ function stepsToSolveHanoiT(height, srcP, desP, bufferP) {
     return;
 }
 
-stepsToSolveHanoiT(3, "A", "C", "B");
+module.exports = stepsToSolveHanoiT
+
+
